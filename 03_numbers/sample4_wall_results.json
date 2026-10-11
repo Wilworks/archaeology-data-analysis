@@ -1,0 +1,149 @@
+{
+  "input": {
+    "voxels": 137436,
+    "voxel_size_mm": [
+      0.977,
+      0.977,
+      1.0
+    ],
+    "thresholded_volume_cm3": 131.2
+  },
+  "split": {
+    "threshold_HU": 1112.5,
+    "crust_peak_HU": 962.5,
+    "body_peak_HU": 1237.5,
+    "body_volume_cm3": 41.1,
+    "crust_class_volume_cm3": 90.1
+  },
+  "axis_candidates": [
+    {
+      "rms_mm": 0.514,
+      "angle_to_best_deg": 0.0,
+      "distance_from_sherd_mm": 98.7
+    },
+    {
+      "rms_mm": 0.514,
+      "angle_to_best_deg": 0.0,
+      "distance_from_sherd_mm": 98.7
+    },
+    {
+      "rms_mm": 0.539,
+      "angle_to_best_deg": 56.0,
+      "distance_from_sherd_mm": 100.5
+    },
+    {
+      "rms_mm": 0.539,
+      "angle_to_best_deg": 56.0,
+      "distance_from_sherd_mm": 100.5
+    },
+    {
+      "rms_mm": 0.588,
+      "angle_to_best_deg": 34.5,
+      "distance_from_sherd_mm": 87.2
+    },
+    {
+      "rms_mm": 0.591,
+      "angle_to_best_deg": 35.1,
+      "distance_from_sherd_mm": 87.4
+    }
+  ],
+  "axis_bootstrap": {
+    "direction_spread_deg_median": 2.0,
+    "direction_spread_deg_p90": 3.6,
+    "radius_sd_mm": 0.6
+  },
+  "axis": {
+    "direction": [
+      -0.8745,
+      0.3111,
+      0.3721
+    ],
+    "point_mm": [
+      -32.06,
+      33.42,
+      1336.25
+    ],
+    "profile_rms_mm": 0.514,
+    "angle_to_plate_normal_deg": 87.6,
+    "distance_from_sherd_centre_mm": 98.7,
+    "crust_on_axis_side": true,
+    "up_convention": "wall leans outward going up (assumption)"
+  },
+  "edge": {
+    "distance_1000_to_600HU_mm": 0.41,
+    "gradient_HU_per_mm": 974,
+    "half_max_HU": 118.75,
+    "outward_shift_500_mm": 0.39,
+    "shift_split_level_mm": 1.02,
+    "note": "gradient measured on the raw HU profile across the outer face"
+  },
+  "wall": {
+    "radius_outer_mm": {
+      "bottom": 94.6,
+      "middle": 109.0,
+      "top": 95.0
+    },
+    "outer_diameter_mm": {
+      "bottom": 189,
+      "top": 190
+    },
+    "lean_from_axis_deg": 1.4,
+    "band_height_mm": 112.5,
+    "thickness_mm": {
+      "median": 8.7,
+      "min": 5.3,
+      "max": 11.2
+    },
+    "surviving_azimuth_deg": 52.0,
+    "roundness_range_mm": 0.4,
+    "inner_face_crust_covered_fraction": 0.0
+  },
+  "symmetry_check_mm": {
+    "-20": {
+      "median_offset": -0.16,
+      "p90_abs": 0.81,
+      "n": 33
+    },
+    "-14": {
+      "median_offset": 0.06,
+      "p90_abs": 0.44,
+      "n": 44
+    },
+    "-7": {
+      "median_offset": 0.24,
+      "p90_abs": 0.7,
+      "n": 55
+    },
+    "0": {
+      "median_offset": -0.31,
+      "p90_abs": 0.54,
+      "n": 56
+    },
+    "7": {
+      "median_offset": -0.1,
+      "p90_abs": 0.44,
+      "n": 58
+    },
+    "14": {
+      "median_offset": -0.0,
+      "p90_abs": 0.4,
+      "n": 48
+    },
+    "20": {
+      "median_offset": 0.14,
+      "p90_abs": 0.78,
+      "n": 30
+    }
+  },
+  "datum_raw_height_mm": -58.0,
+  "export": {
+    "triangles": 51840,
+    "watertight": true,
+    "mesh_volume_cm3": 617.8,
+    "dxf": true,
+    "step": {
+      "volume_cm3": 619.1,
+      "valid": true
+    }
+  }
+}

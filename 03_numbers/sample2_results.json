@@ -1,0 +1,191 @@
+{
+  "voxels": 217925,
+  "voxel_size_mm": [
+    0.977,
+    0.977,
+    1.0
+  ],
+  "hu_valley": 1212.5,
+  "hu_peaks": [
+    1012.5,
+    1337.5
+  ],
+  "body_voxels": 75675,
+  "body_volume_cm3": 72.23398207499847,
+  "crust_class_volume_cm3": 135.78652289499712,
+  "axis_profile_only": {
+    "direction": [
+      -0.3252,
+      -0.7709,
+      0.5477
+    ],
+    "profile_rms_mm": 0.333
+  },
+  "alternative_axes": [
+    {
+      "rms_mm": 0.33,
+      "direction": [
+        -0.292,
+        -0.829,
+        0.477
+      ]
+    },
+    {
+      "rms_mm": 0.382,
+      "direction": [
+        -0.295,
+        -0.537,
+        0.79
+      ]
+    },
+    {
+      "rms_mm": 0.406,
+      "direction": [
+        -0.288,
+        -0.4,
+        0.87
+      ]
+    },
+    {
+      "rms_mm": 0.441,
+      "direction": [
+        -0.276,
+        -0.166,
+        0.947
+      ]
+    },
+    {
+      "rms_mm": 0.618,
+      "direction": [
+        -0.099,
+        0.865,
+        0.492
+      ]
+    },
+    {
+      "rms_mm": 0.63,
+      "direction": [
+        0.257,
+        0.967,
+        0.001
+      ]
+    }
+  ],
+  "lip": {
+    "plane_rms_mm": [
+      0.33,
+      0.39,
+      0.29,
+      0.27,
+      0.51
+    ],
+    "normal": [
+      -0.3154,
+      -0.773,
+      0.5504
+    ],
+    "angle_to_profile_axis_deg": 0.6,
+    "selection_spread_deg": 1.65
+  },
+  "axis": {
+    "direction": [
+      -0.3154,
+      -0.773,
+      0.5504
+    ],
+    "point_mm": [
+      144.98,
+      -92.64,
+      1285.86
+    ],
+    "tilt_from_scanner_z_deg": 56.6,
+    "profile_rms_mm": 0.334
+  },
+  "edge": {
+    "distance_1212_to_500_mm": 0.81,
+    "gradient_HU_per_mm": 881,
+    "half_max_HU": 175.0,
+    "outward_shift_from_500_mm": 0.37,
+    "shift_from_1212_mm": 1.18
+  },
+  "profile_extension_mm": {
+    "tip": 3.7,
+    "top": 2.5
+  },
+  "outer_profile_correction_mm": {
+    "median": -0.07,
+    "min": -1.24,
+    "max": 0.42,
+    "top_third_median": 0.01
+  },
+  "outer_profile_scatter_mm": {
+    "median": 0.34,
+    "p90": 1.4,
+    "p95": 1.82
+  },
+  "roundness_mm": {
+    "base_departure_range": 0.6,
+    "wall_departure_range": 4.1,
+    "note": "peak-to-peak over azimuth of the median edge position (500 HU) relative to the azimuth-median profile"
+  },
+  "inner_face_crust_covered_fraction": 0.17,
+  "lip_crest_500HU_mesh": {
+    "n_vertices": 574,
+    "height_sd_mm": 0.33,
+    "radial_extent_mm": [
+      108.4,
+      113.2
+    ]
+  },
+  "vessel": {
+    "lowest_surviving_point_radius_mm": 74.4,
+    "rim_height_above_lowest_point_mm": 59.7,
+    "rim_outer_radius_mm": 113.9,
+    "rim_outer_diameter_mm": 228,
+    "rim_inner_radius_mm": 107.2,
+    "lip_radial_width_mm": 6.7,
+    "max_outer_radius_mm": 121.3,
+    "max_outer_diameter_mm": 243,
+    "height_of_max_diameter_mm": 36.6,
+    "thickness_mm": {
+      "median": 9.7,
+      "min": 5.9,
+      "max": 12.7
+    },
+    "surviving_azimuth_deg": 79,
+    "lip_level_azimuth_deg": 55
+  },
+  "closure_illustrative": {
+    "sphere_radius_mm": 144,
+    "drop_below_lowest_surviving_point_mm": 20.7,
+    "tangent_slope_deg": 31.1,
+    "note": "NOT measured. Smooth cap tangent to the surviving base, for display only."
+  },
+  "export": {
+    "measured": {
+      "triangles": 51840,
+      "watertight": true,
+      "mesh_volume_cm3": 483.6,
+      "polygon_volume_cm3": 483.8
+    },
+    "with_illustrative_base": {
+      "triangles": 73728,
+      "watertight": true,
+      "mesh_volume_cm3": 633.2,
+      "polygon_volume_cm3": 633.4
+    },
+    "cad_pieces": {
+      "measured": 5,
+      "with_base": 5
+    },
+    "dxf": true,
+    "step_measured": {
+      "volume_cm3": 484.7,
+      "valid": true
+    },
+    "step_with_base": {
+      "volume_cm3": 634.6,
+      "valid": true
+    }
+  }
+}

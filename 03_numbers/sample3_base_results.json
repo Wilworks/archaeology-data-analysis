@@ -1,0 +1,136 @@
+{
+  "input": {
+    "voxels": 158229,
+    "voxel_size_mm": [
+      0.977,
+      0.977,
+      1.0
+    ],
+    "core_volume_cm3": 113.9,
+    "stored_volume_cm3": 151.0
+  },
+  "faces": {
+    "up_vertices": 13703,
+    "lower_vertices": 14389
+  },
+  "axis_candidates": [
+    {
+      "spread_mm": 2.533,
+      "angle_to_best_deg": 0.0,
+      "centre_shift_mm": 0.0
+    },
+    {
+      "spread_mm": 2.536,
+      "angle_to_best_deg": 0.2,
+      "centre_shift_mm": 0.12
+    },
+    {
+      "spread_mm": 2.536,
+      "angle_to_best_deg": 0.23,
+      "centre_shift_mm": 0.11
+    },
+    {
+      "spread_mm": 2.536,
+      "angle_to_best_deg": 0.23,
+      "centre_shift_mm": 0.1
+    },
+    {
+      "spread_mm": 2.536,
+      "angle_to_best_deg": 0.19,
+      "centre_shift_mm": 0.12
+    },
+    {
+      "spread_mm": 2.553,
+      "angle_to_best_deg": 0.33,
+      "centre_shift_mm": 0.28
+    }
+  ],
+  "axis": {
+    "direction": [
+      -0.2196,
+      -0.969,
+      0.1133
+    ],
+    "point_mm": [
+      86.7,
+      -39.76,
+      1137.08
+    ],
+    "spread_mm": 2.533,
+    "angle_to_plate_normal_deg": 0.63,
+    "bootstrap_direction_deg_median": 0.26,
+    "bootstrap_direction_deg_p90": 0.58,
+    "bootstrap_centre_mm_median": 0.18
+  },
+  "edge": {
+    "distance_1000_to_600HU_mm": 0.39,
+    "gradient_HU_per_mm": 1026,
+    "plateau_HU": 1407.0,
+    "half_max_HU": 203.5,
+    "outward_shift_mm": 0.29
+  },
+  "profile": {
+    "floor_radius_covered_mm": [
+      0.0,
+      69.3
+    ],
+    "outer_edge_radius_mm": 68.8,
+    "outer_edge_diameter_mm": 138,
+    "upper_face_height_range_mm": [
+      16.4,
+      27.1
+    ],
+    "lower_face_height_range_mm": [
+      0.0,
+      23.3
+    ],
+    "total_height_mm": 27.1,
+    "centre_thickness_mm": 9.0,
+    "ring_crest_upper": {
+      "radius_mm": 67.5,
+      "height_mm": 27.1
+    },
+    "ring_low_point": {
+      "radius_mm": 53.5,
+      "height_mm": 0.0
+    },
+    "azimuth_covered_deg": 232.0,
+    "distance_of_face_points_from_profile_mm": {
+      "median": 0.57,
+      "p90": 2.37
+    },
+    "flat_foot_radius_range_mm": [
+      48.5,
+      57.6
+    ],
+    "crest_width_mm": 19.8
+  },
+  "frame": {
+    "e1": [
+      -0.554632,
+      0.219567,
+      0.802604
+    ],
+    "e2": [
+      -0.802596,
+      0.113391,
+      -0.585647
+    ],
+    "zdatum_mm": -14.2919,
+    "axis_point_mm": [
+      86.5352,
+      -40.4775,
+      1137.1648
+    ]
+  },
+  "export": {
+    "triangles": 91584,
+    "watertight": true,
+    "mesh_volume_cm3": 225.3,
+    "dxf": true,
+    "step": {
+      "volume_cm3": 225.1,
+      "valid": true
+    }
+  }
+}

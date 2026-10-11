@@ -1,0 +1,63 @@
+{
+  "interior_circle": {
+    "radius_mm": 120.2,
+    "centre_radius_mm": 5.3,
+    "centre_height_mm": 136.9,
+    "fit_rms_mm": 0.045
+  },
+  "exterior_sphere_radius_mm": 131.0,
+  "wall_thickness_mm": 10.7,
+  "flank_top": {
+    "radius_mm": 65.6,
+    "height_mm": 20.6
+  },
+  "measured_interior_slope_at_r69_deg": -8.2,
+  "sphere_slope_at_r69_deg": 32.0,
+  "heights": {
+    "z060": {
+      "rim_inner_diameter_mm": 195,
+      "rim_outer_diameter_mm": 223,
+      "total_height_mm": 60.0,
+      "triangles": 155520,
+      "watertight": true,
+      "mesh_volume_cm3": 541.0,
+      "polygon_volume_cm3": 541.0,
+      "dxf": true,
+      "step": {
+        "volume_cm3": 537.0,
+        "valid": true,
+        "volume_vs_polygon_percent": -0.8
+      }
+    },
+    "z080": {
+      "rim_inner_diameter_mm": 222,
+      "rim_outer_diameter_mm": 247,
+      "total_height_mm": 80.0,
+      "triangles": 155520,
+      "watertight": true,
+      "mesh_volume_cm3": 719.0,
+      "polygon_volume_cm3": 719.0,
+      "dxf": true,
+      "step": {
+        "volume_cm3": 724.0,
+        "valid": true,
+        "volume_vs_polygon_percent": 0.8
+      }
+    },
+    "z100": {
+      "rim_inner_diameter_mm": 239,
+      "rim_outer_diameter_mm": 262,
+      "total_height_mm": 100.0,
+      "triangles": 155520,
+      "watertight": true,
+      "mesh_volume_cm3": 896.0,
+      "polygon_volume_cm3": 896.0,
+      "dxf": true,
+      "step": {
+        "volume_cm3": 899.0,
+        "valid": true,
+        "volume_vs_polygon_percent": 0.3
+      }
+    }
+  }
+}

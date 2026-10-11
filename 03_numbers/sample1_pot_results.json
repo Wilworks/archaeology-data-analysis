@@ -1,0 +1,115 @@
+{
+  "isolation": {
+    "ceramic_group_volume_cm3": 387.7,
+    "piece_isolated_cm3": 413.7,
+    "piece_cleaned_cm3": 309.7,
+    "split_threshold_HU": 1087.5,
+    "piece_mean_HU": 1214,
+    "ceramic_group_mean_HU": 1254,
+    "lumps_above_inner_face_removed_cm3": 24.4,
+    "piece_final_cm3": 283.9
+  },
+  "foot": {
+    "circle_radius_mm": 47.1,
+    "circle_diameter_mm": 94.2,
+    "circle_rms_mm": 1.18,
+    "cap_vertices": 4401,
+    "cap_extents_mm": [
+      86,
+      96
+    ],
+    "axis": [
+      0.2956,
+      -0.9551,
+      -0.0202
+    ],
+    "centre_mm": [
+      -121.85,
+      -28.37,
+      1107.59
+    ]
+  },
+  "interior_sphere": {
+    "radius_mm": 126.5,
+    "centre_height_mm": 147.5,
+    "fit_rms_mm": 0.277,
+    "free_centre_fit": {
+      "radius_mm": 175.7,
+      "centre_radius_mm": -12.4,
+      "fit_rms_mm": 0.161
+    }
+  },
+  "profile_fit": {
+    "median_distance_mm": 0.92,
+    "p90_mm": 3.09,
+    "note": "face points (including remaining lumps and the non-round outline) against the two profile curves"
+  },
+  "wall": {
+    "exterior_sphere_radius_mm": 140.1,
+    "wall_thickness_mm": 13.6,
+    "exterior_join": {
+      "radius_mm": 70.0,
+      "height_mm": 26.1
+    },
+    "interior_gap_below_sphere_at_r70_mm": 6.3
+  },
+  "vessels": {
+    "z170": {
+      "rim_inner_diameter_mm": 249,
+      "rim_outer_diameter_mm": 277,
+      "total_height_mm": 170.0,
+      "watertight": true,
+      "mesh_volume_cm3": 1854,
+      "polygon_volume_cm3": 1854,
+      "step": {
+        "volume_cm3": 1848,
+        "valid": true,
+        "volume_vs_polygon_percent": -0.3
+      },
+      "real_piece_vs_vessel_mm": {
+        "median": 0.99,
+        "within_1mm_percent": 50,
+        "within_2mm_percent": 74,
+        "within_3mm_percent": 83
+      }
+    },
+    "z210": {
+      "rim_inner_diameter_mm": 220,
+      "rim_outer_diameter_mm": 251,
+      "total_height_mm": 210.0,
+      "watertight": true,
+      "mesh_volume_cm3": 2309,
+      "polygon_volume_cm3": 2309,
+      "step": {
+        "volume_cm3": 2310,
+        "valid": true,
+        "volume_vs_polygon_percent": 0.0
+      },
+      "real_piece_vs_vessel_mm": {
+        "median": 0.99,
+        "within_1mm_percent": 50,
+        "within_2mm_percent": 74,
+        "within_3mm_percent": 83
+      }
+    },
+    "z250": {
+      "rim_inner_diameter_mm": 148,
+      "rim_outer_diameter_mm": 191,
+      "total_height_mm": 250.0,
+      "watertight": true,
+      "mesh_volume_cm3": 2764,
+      "polygon_volume_cm3": 2765,
+      "step": {
+        "volume_cm3": 2765,
+        "valid": true,
+        "volume_vs_polygon_percent": 0.0
+      },
+      "real_piece_vs_vessel_mm": {
+        "median": 0.99,
+        "within_1mm_percent": 50,
+        "within_2mm_percent": 74,
+        "within_3mm_percent": 83
+      }
+    }
+  }
+}

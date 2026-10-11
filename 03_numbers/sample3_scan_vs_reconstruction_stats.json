@@ -1,0 +1,8 @@
+{
+ "median_distance_mm": 0.5,
+ "within_1mm_percent": 69,
+ "within_2mm_percent": 85,
+ "within_3mm_percent": 91,
+ "signed_median_mm": -0.25,
+ "n_points": 14000
+}
