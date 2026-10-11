@@ -1,0 +1,12 @@
+Put the three original extraction scripts here, unchanged, as the record of exactly what was run:
+  02_extract_sample2.py
+  03_extract_sample4.py
+  04_extract_samples1_3.py
+They were supplied as text in the conversation and were not re-typed here, to avoid transcription errors.
+extract_pieces.py in this folder is the cleaned, vectorised equivalent (paths as arguments, tested against the per-voxel formula on synthetic
+geometry; not run on the real DICOM series by the preparer).
+Known small issues in the originals (do not affect the saved point files):
+  * 02_extract_sample2.py prints its Step-3 millimetre bounding box as index x spacing for x and y (no scan offset); the saved file uses true
+    scanner coordinates. Scripts 03 and 04 print the box from the saved coordinates.
+  * All three contain absolute Windows paths and an `assert ... or True` line that checks nothing.
+  * The per-voxel Python loop is correct but slow.
