@@ -1,0 +1,9 @@
+Tested with: Python 3.12.3 on Linux (x86-64), numpy 2.4.4, scipy 1.17.1, scikit-image 0.26.0, matplotlib 3.10.8, trimesh 5.1.0,
+rtree 1.4.1, ezdxf 1.4.4, cadquery 2.8.0 (OpenCascade), pillow 12.1.1.
+ezdxf and cadquery are optional: without them the DXF and STEP files are skipped and everything else still runs.
+Randomness: every random choice uses numpy default_rng with a fixed seed inside the scripts, so repeated runs give identical numbers
+(checked by run_all.py -> verify_results.py: all six result files identical to the references).
+Run time of run_all.py on the test machine: about 4.5 minutes for the whole package (s2 74 s, s4 16 s, s3 7 s, s3flip 7 s, s3v 21 s, s1 31 s,
+s1pot 37 s, real 11 s, figs 55 s). Peak memory: a few GB for Sample 1 (977,093 voxels).
+LaTeX manuscript: pdflatex + bibtex (tested with TeX Live; packages: geometry, fancyhdr, amsmath, amssymb, graphicx, booktabs, caption,
+subcaption, natbib, xcolor, hyperref, siunitx).

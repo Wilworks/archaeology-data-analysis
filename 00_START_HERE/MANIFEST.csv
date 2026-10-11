@@ -1,0 +1,189 @@
+path,bytes,sha256,description
+00_START_HERE/ENVIRONMENT.txt,955,62f72ac652b95a99fa49d0bd5aeab21d9c7c05af1909eeb795f8014b135da631,"tested software versions, run times, seeds"
+00_START_HERE/README.txt,2997,a8faec9bd91d4f22520d2f2c4118f750d0ebaafbe56788ef9b4af89b74a3c3fa,"start here: contents, specimens, what to read before quoting a number"
+00_START_HERE/RUN_ALL.md,1076,ec9f3c0dd11c0343fa278b869ff04627effa1ee178aeb2826b70162124fafbbc,how to rebuild everything
+00_START_HERE/requirements.txt,276,df7e2ebafaab156e17522337e2a66d3a6bdcaf8c155a82b0f9f64ea2201070ac,Python packages
+01_inputs/SAMPLE5_stone.md,1051,5ce8a4732d87dd5d8d5bb301cc659e0e98551eb790dc27e622d69d62c691c8bf,note on Sample 5 (a stone)
+01_inputs/extraction/DICOM_TAG_REPORT.md,1901,5d3c62121af5e4c71747f2b86b885d1d0ee40de42eddd84d43c273f63b86b4d0,DICOM tag report and world-coordinate formula
+01_inputs/extraction/ORIGINAL_SCRIPTS_TO_ADD.txt,934,36420b72a24851efc6e78a49508c126d73006e9fd470782a2621051bf1de3220,note on the three original extraction scripts
+01_inputs/extraction/SAMPLE_LABELS.md,1641,631c6af640acaa70d104c3a69d042a255c1f3e614b50b7a79c5eb784bc22aeb4,how specimens were matched to scan labels and to Table 2
+01_inputs/extraction/extract_pieces.py,6891,c2103fcddee3f5b09580eafc032e4d9be0996b1a8be158ed91f703b39de123d9,vectorised extraction script with self-test (DICOM series -> point files)
+01_inputs/point_files/sample1.npz,13680262,c772ecaec2c5e6c5ac0f04c5553a515d29c08403124f01db0ff6a0fe35f7d95e,"point file: x, y, z (mm, float32) and hu (int16) of every voxel >= 500 HU of one scan label"
+01_inputs/point_files/sample2.npz,3051910,b61dedf15bfdaea1e748bf31702d9431f89c23c2d55aa0684d8966e341633016,"point file: x, y, z (mm, float32) and hu (int16) of every voxel >= 500 HU of one scan label"
+01_inputs/point_files/sample3.npz,2216166,3f69bc785dab5aa7c68ee0c7e177fdefc5c36d70909ab7e83c0396700f6da554,"point file: x, y, z (mm, float32) and hu (int16) of every voxel >= 500 HU of one scan label"
+01_inputs/point_files/sample4.npz,1925064,548af1edda1c24ec7680d5626c8a11b935e753673710f2152c82858260deb027,"point file: x, y, z (mm, float32) and hu (int16) of every voxel >= 500 HU of one scan label"
+02_code/make_figures.py,20341,cbb98f52a9fb292176c9b9313b0a5f6bdad9262d5720fc2f6a03d34453254b49,"data views, histograms, comparisons and summary figures"
+02_code/make_final_numbers.py,8847,370c5ebc49f68e24b8c019be671025b57b24c5d280f49b3d7e1c1a6bb776c16b,builds FINAL_NUMBERS from the result files
+02_code/make_manifest.py,4517,a0102da0a9ed9321329e933ecc933adf715992534d9788daa356cba1affcfa61,writes this manifest
+02_code/provenance/axis1.py,2334,b4e21b6eec0a27b9b409d2d49db162b76dbe59db4f9a09965dc7dfc4f6afc00b,exploratory script that produced an early figure or check (paths are hard-coded; not part of run_all)
+02_code/provenance/axis4.py,1692,31ab82af875f9ab788d035192f18d08b94d273c863bc3f3efdfe574c5cbd7bf9,exploratory script that produced an early figure or check (paths are hard-coded; not part of run_all)
+02_code/provenance/axis_brown.py,2434,4fb00844c533103857e57bb5a81235f2af0fcff195ef0e4489bfe3ea7d6c290f,exploratory script that produced an early figure or check (paths are hard-coded; not part of run_all)
+02_code/provenance/brown1.py,2061,470775ab9aa15be685b3a038e5bfbe5a9a4fab75fa52a55444732609fdeaa50c,exploratory script that produced an early figure or check (paths are hard-coded; not part of run_all)
+02_code/provenance/compare3.py,4292,4635cf826fae4cb09eb09630fedf4137e3568cf5dc62a367a817b193439c3fa9,exploratory script that produced an early figure or check (paths are hard-coded; not part of run_all)
+02_code/provenance/explore1.py,3933,4f7e94ad9fc040ba6979fd8b98426710c2b30d2728e8924009f3e1b3f511609a,exploratory script that produced an early figure or check (paths are hard-coded; not part of run_all)
+02_code/provenance/explore4.py,4204,f40cfbdcb1884980d488369151b7bd7fd0cb81395867ab62aeb6609505780713,exploratory script that produced an early figure or check (paths are hard-coded; not part of run_all)
+02_code/provenance/flat3.py,2625,0323b4ce44945954293bb9c1281218ed0ab35bb42cc1f366dc7332d9074fd1d7,exploratory script that produced an early figure or check (paths are hard-coded; not part of run_all)
+02_code/provenance/foot1.py,3299,726df8760bfa7d3fbd25b1588559f7c8f5392f7d9c8e966709b95bac3c5d4048,exploratory script that produced an early figure or check (paths are hard-coded; not part of run_all)
+02_code/provenance/plateau1.py,2178,6e3871b97d2951f084ad495191079490504656e64183486d1338d1ef934966b4,exploratory script that produced an early figure or check (paths are hard-coded; not part of run_all)
+02_code/run_all.py,4104,f9c781cfab76cf82497e9927f0fe7bc5fd00a87addc3e4d7100e1ec1b17c95b1,"rebuilds every result, figure and 3D file"
+02_code/sample1_base_reconstruction.py,18912,5fc37b0a6ac642f8f929e5fc8963b9b1c280145741b47f6c8ae124e2cb9e01be,"Sample 1 (brown piece) pipeline: isolation, foot, profile, sphere, bowls and pots"
+02_code/sample2_reconstruction.py,50231,df3b5ac91165b0e4ff4e6fbd1ede7cb48cc5787505e0aa0d0ab125c10de4cc0b,"Sample 2 pipeline and shared library (axis search, surfaces, sweep, exports)"
+02_code/sample3_base_reconstruction.py,22636,88db712f6016ff59d11111840b5f9000b473c8f34061c9c080b06e87156a8029,Sample 3 ring-footed base pipeline
+02_code/sample3_vessel_spherical_wall.py,11750,5ecd16374e5bfe54db1831ea9edeec966d20998575eb37439c78e6dc5c0321af,Sample 3 wall pulled up along the interior sphere
+02_code/sample4_wall_reconstruction.py,25805,eaa790a52ebc531b0f7eead8e65e1ae2a708ef8669a886078fae3e484c0172f1,Sample 4 wall-band pipeline
+02_code/show_real_sherd_in_vessel.py,5695,e21fff28605883a969f03bcc32452c0c43f98c20517adf5af596dd2857b6d9cb,real sherd drawn inside the completed vessel (Samples 2 and 4)
+02_code/verify_results.py,2057,2b96d55db14256c123c99baf73f383ac46d8c8093fd55e7c0b870456ff9fc58c,compares a fresh run with the reference results
+03_numbers/ASSUMPTIONS.md,3503,03b5e4ba9d905930db6832ccd2f2c5e6f94c15b2b6699cd8581bee883331a59e,register of assumptions
+03_numbers/CORRECTIONS_LOG.md,3998,172cf8a58b75acf78ef251b1091332cef9cac1d713a08752d970136752f07901,errors found and fixed
+03_numbers/FIGURE_INDEX.md,3875,88d3f3dfda6a2605c994dac24d01ca57382a9e8ac3ac87ea65ce0fe62b8feec9,which script makes which figure
+03_numbers/FINAL_NUMBERS.csv,4788,dfe036a48e48455e97e130584d1b2dbb9eab18412c07f021dc61233dd13abb3c,every reported number with uncertainty and status
+03_numbers/FINAL_NUMBERS.md,5660,fddb979725cae422b4f06e5552d12dce63325cfc1cef547129e1e3976166a93b,every reported number with uncertainty and status
+03_numbers/VALIDATION.md,2610,80337d5052027c4c76f29cf0da2b52e825a5207032f97f515d3c5129bf3371eb,validation summary
+03_numbers/sample1_pot_results.json,2763,3b0cbdb6753a7eda709e11b06e2107d33a10b0faac9171616110f90949fb646c,result file or profile table of one pipeline (see the file name)
+03_numbers/sample1_profile.csv,6052,1391ab531532838c2e0fce8b46ad24189ce6857eeb681130b680fab3278c4db5,result file or profile table of one pipeline (see the file name)
+03_numbers/sample1_results.json,2757,d7ceeb3af7c9744df5f5e3f3ac1a9818c89c8f9481ece9351b9772617b4486f2,result file or profile table of one pipeline (see the file name)
+03_numbers/sample2_profile.csv,25080,06da405481399f0e81a893904c3f991dc9f03462a2cbeaa125c3696550c40f9d,result file or profile table of one pipeline (see the file name)
+03_numbers/sample2_results.json,3669,88dddce6912a11ea2d1d407af8e450c3e498e7cbe1b39424c0605d55f9b215ba,result file or profile table of one pipeline (see the file name)
+03_numbers/sample3_base_profile.csv,5227,5ae2a0035fd3e6205698c9e3a0487a5653639a607eb95588b7d406d267479bc4,result file or profile table of one pipeline (see the file name)
+03_numbers/sample3_base_results.json,2545,ef72333479f58dee7b31f8b6cfb0c1846f60ac1594a85bdaf9f88d6c5d563de6,result file or profile table of one pipeline (see the file name)
+03_numbers/sample3_scan_vs_reconstruction_stats.json,159,930175971450ef7d9cfe86cf8b7ce3c35d59df515159fdf481700d3e7e028804,result file or profile table of one pipeline (see the file name)
+03_numbers/sample3_vessel_walls.json,1514,cbc93130cf5b7689209e8afe6017c1f4910d2dd2085379d65175f02d6d4e2039,result file or profile table of one pipeline (see the file name)
+03_numbers/sample4_wall_profile.csv,22675,5472c93192085eefa754704eb12d20e252ed2913035c2b3b1b9d8e7ccdd51c44,result file or profile table of one pipeline (see the file name)
+03_numbers/sample4_wall_results.json,2995,aefcb0d5e960472825c0cc5f4503090a3ce533e64e7b9e867b3cb74a9e64d86b,result file or profile table of one pipeline (see the file name)
+04_figures/00_data_views/hu_histograms_samples1to4.png,99766,b76d3fa5b0fce57d2da901a7d2088d2ebcdc5174e595507f2a15ad406b8b2fdc,figure (see 03_numbers/FIGURE_INDEX.md)
+04_figures/00_data_views/sample1_parts.png,480266,7d763061e3c1fd8f0b187c97c632e70c8fa9a80a868df774f2e860e261f59887,figure (see 03_numbers/FIGURE_INDEX.md)
+04_figures/00_data_views/sample1_piece_isolated_vs_cleaned.png,743142,e71a2efef0fa5d7476405f90640ba8b925e0b40869f038ea5a092fc896372377,figure (see 03_numbers/FIGURE_INDEX.md)
+04_figures/00_data_views/sample3_height_maps.png,44572,cd66ade3cc0a5ea3f56cbc2e5077ca37f157b524172c929d7dc15ed50468ecb2,figure (see 03_numbers/FIGURE_INDEX.md)
+04_figures/00_data_views/sample5_stone_screenshot.png,170136,c00e28823668d236802e4db645d347229e752ade73c1c8a6004c227c4fa96e7a,figure (see 03_numbers/FIGURE_INDEX.md)
+04_figures/00_data_views/surface_views_sample1.png,937482,1408735873ee4fb1b00c847a8fae24f8d37e66797566ad9930f9ae3896ddb27b,figure (see 03_numbers/FIGURE_INDEX.md)
+04_figures/00_data_views/surface_views_sample2.png,733124,ae74e470bcbce2cddfe4804e747b40c6e012d411988af8676bfa90cdfdcf6bd5,figure (see 03_numbers/FIGURE_INDEX.md)
+04_figures/00_data_views/surface_views_sample3.png,783683,228c14d9ad8af6e18edda064ebb55a1b39ef54198a942d364e93d9af79fbafd5,figure (see 03_numbers/FIGURE_INDEX.md)
+04_figures/00_data_views/surface_views_sample4.png,721521,b960508bf33fc33812db9aa68e9d2ba72e67522a431c8f176f20b6cef4d54980,figure (see 03_numbers/FIGURE_INDEX.md)
+04_figures/01_sample2/sample2_ct_sections_with_profile.png,404260,f77a7429ea8258b6d0b7351e18ee0a5e6b1854b9b284de433ef3a865d65035d4,figure (see 03_numbers/FIGURE_INDEX.md)
+04_figures/01_sample2/sample2_lip_check.png,224687,8f65774569d4a67790ba919b63fcd202c8f8bd3291fd778c79d9c8a72390747d,figure (see 03_numbers/FIGURE_INDEX.md)
+04_figures/01_sample2/sample2_profile_thickness.png,161401,6cb3f7c6dd20ec2a4799bf0237d73ffcedc24eccff71664c5afc3aba907e549d,figure (see 03_numbers/FIGURE_INDEX.md)
+04_figures/01_sample2/sample2_real_sherd_in_vessel.png,539378,e7db36deef769a7dbc382db2ebc8b08bdda7ac8939e7c3b2f5133f3cfc6ebf0a,figure (see 03_numbers/FIGURE_INDEX.md)
+04_figures/01_sample2/sample2_vessel_sweep.png,590904,cb3e992e1d7679c776f726f7dca2439434b14b689b06e2816b41b731f4f4feae,figure (see 03_numbers/FIGURE_INDEX.md)
+04_figures/02_sample3/sample3_base_ct_sections_with_profile.png,227721,b8814718738bca5c5ecfbead64394db230e0fe3d9dc0e633d0afb918d965b84a,figure (see 03_numbers/FIGURE_INDEX.md)
+04_figures/02_sample3/sample3_base_sweep.png,455389,7cc90b5082f884575ca7a8ef8cc3f28f100d3cec9a202ea46641bd13c4761de6,figure (see 03_numbers/FIGURE_INDEX.md)
+04_figures/02_sample3/sample3_orientation_A_vs_B.png,51514,80e5ef8ba2eade72a6b07762df6013bb848c280ae6f89228fee3b739e69a5596,figure (see 03_numbers/FIGURE_INDEX.md)
+04_figures/02_sample3/sample3_scan_vs_reconstruction.png,909586,e5a8f5b5318a678c0ae169e61635d5e68b90b15b559d6363215b22a74e891a1c,figure (see 03_numbers/FIGURE_INDEX.md)
+04_figures/02_sample3/sample3_vessel_spherical_wall_with_real_sherd.png,1003771,fbc166c8e6f377d49daeb40369763ecf3706d0fc6c70c4b5a587ae10162377db,figure (see 03_numbers/FIGURE_INDEX.md)
+04_figures/03_sample1/sample1_piece_on_its_base.png,383039,ad4e84cf208af15ea4b422de6e5bc7520d8b8406af0f559ce22bddbd8fef8059,figure (see 03_numbers/FIGURE_INDEX.md)
+04_figures/03_sample1/sample1_pot_projection.png,1289142,fe54eb26d2fcfa48ea772c4fc9688b48b3739e756d9f6a7ec90c4dfba6bbb262,figure (see 03_numbers/FIGURE_INDEX.md)
+04_figures/03_sample1/sample1_profile_both_faces.png,497023,ab013cf63651079963b5a1bad20f195976a770139d6f61f76af38d09849e2772,figure (see 03_numbers/FIGURE_INDEX.md)
+04_figures/03_sample1/sample1_vessel_bowls_with_real_piece.png,1032659,d04b43df08ee8c4e69218de10b7bd56fdb2c95c6ee8412d4dceffc039195a86f,figure (see 03_numbers/FIGURE_INDEX.md)
+04_figures/04_sample4/sample4_real_sherd_in_wall_band.png,520352,01ffdefa05ff1fb8c2485bed3d6f5c6d3210d4bb77a8f0ba100fc4429c02df61,figure (see 03_numbers/FIGURE_INDEX.md)
+04_figures/04_sample4/sample4_wall_band_sweep.png,460973,da331cdb33dea225478e632b9b748e8db126eaf1a7b5977c436c0a22b1a468fa,figure (see 03_numbers/FIGURE_INDEX.md)
+04_figures/04_sample4/sample4_wall_ct_sections_with_profile.png,199641,617a491e8cc2f11fa913d9c434d48d2dcebda4c279c82655f1f992ba360ebdd4,figure (see 03_numbers/FIGURE_INDEX.md)
+04_figures/05_cross_sample/cross_sample_profiles.png,99223,4c4bf680b7daeeb3fde63478baec39d928277b71a008c4f90e4928b7bd6ad660,figure (see 03_numbers/FIGURE_INDEX.md)
+04_figures/06_draft_figures/draft_fig1_ct_overview_mip.png,472862,25d2b96985828659edbaf4d787060a6ccac425db206eecb202a2a473b77add88,figure (see 03_numbers/FIGURE_INDEX.md)
+04_figures/06_draft_figures/draft_fig2_inaa_elemental_profiles.png,522217,93b10b1155dc237b30601c02d39fbb19883b360db1a523c7dd54e3287e1c627e,figure (see 03_numbers/FIGURE_INDEX.md)
+04_figures/06_draft_figures/draft_fig3_geochemical_correlation.png,311574,e6af46d3e776387c3c2da81969b062932e680e1fc27114f3dd4c0d141e151ed6,figure (see 03_numbers/FIGURE_INDEX.md)
+04_figures/06_draft_figures/draft_fig4_sample2_hu_distribution.png,84617,529d689081ab6dda327e88d71ca492f7cc728113edf63f3f9aa3c04fc886b2e4,figure (see 03_numbers/FIGURE_INDEX.md)
+05_3d_models/OPEN_IN_SLICER_AND_SOLIDWORKS.md,1848,5ea46dd1efcd45b8dc13c797fe8ac3004a485a8dc9b76380c1bff3cccd90fd76,how to open the 3D files
+05_3d_models/real_sherds_cleaned/sample1_brown_piece_cleaned_scannerLPS.stl,6739684,0fc616065ad3c819a7d797f4b0504bae0b84d9f879e8584aeffb364f06c63e68,crust-free scanned sherd surface in scanner coordinates (open shell)
+05_3d_models/real_sherds_cleaned/sample2_real_sherd_cleaned_scannerLPS.stl,3269684,ec05259a01a8fad58218dad8b23656369ffc6f9ac050802f0f9def5c2a384177,crust-free scanned sherd surface in scanner coordinates (open shell)
+05_3d_models/real_sherds_cleaned/sample3_real_sherd_cleaned_scannerLPS.stl,3403234,0d1663215cbc972a1bae968acc16b1bea2f010444a2c0dac11ce12baa1244adc,crust-free scanned sherd surface in scanner coordinates (open shell)
+05_3d_models/real_sherds_cleaned/sample4_real_sherd_cleaned_scannerLPS.stl,2305884,0e6c82d5f054468ba8776eea78a98d4503e1bf2910c6ceb1f1eddda8c10c23c0,crust-free scanned sherd surface in scanner coordinates (open shell)
+05_3d_models/sample1_bowls/sample1_piece_cleaned_on_its_base_local.stl,6739684,099acb12214a90af26347fc1d44f41dbd190af2c0e06039f41c6d77aaaabca17,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample1_bowls/sample1_piece_cleaned_scannerLPS.stl,6739684,0fc616065ad3c819a7d797f4b0504bae0b84d9f879e8584aeffb364f06c63e68,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample1_bowls/sample1_vessel_z070.step,72214,e544098948d65b0e61a9ddc14497dba24c16741146bfb1f3fe34c21854584423,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample1_bowls/sample1_vessel_z070_local.stl,7866084,f6d071d9d50714ab347a53320482a16a78855a81555cfd4713c4a2e352a1bc2c,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample1_bowls/sample1_vessel_z070_profile.dxf,53874,a49735959873e7ca000c6ffbabffd2e9ad51d34830c97b72a4897df983e4cb3d,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample1_bowls/sample1_vessel_z070_scannerLPS.stl,7866084,80142137972fba9bdacab88688574e7092158002ea16244f853196362eddb984,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample1_bowls/sample1_vessel_z090.step,72207,30743b54d6e21639bb35924c8feb9b466a9080f66bd57443cb3f363be8418197,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample1_bowls/sample1_vessel_z090_local.stl,7866084,43d8014032d4e080a369e5181d473564fd26b914232c4bdb762bcd1ae43279a6,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample1_bowls/sample1_vessel_z090_profile.dxf,53866,21ccd4ee5f72d3c3972aeff30e5223225912d69040023ec78c304f87d768912b,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample1_bowls/sample1_vessel_z090_scannerLPS.stl,7866084,4b60518c883d4bedce94bd710006cc7143808376bb48e09141990328374d43b4,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample1_bowls/sample1_vessel_z110.step,72247,0afc4a2a58e6b609d2b2f958f95c9dfb80ffdc503dafd91455a304738c7de1c6,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample1_bowls/sample1_vessel_z110_local.stl,7866084,cd644504dcd899f61c22c9f5a12a05733f90a1f7b128cb38aa77624827fc33ab,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample1_bowls/sample1_vessel_z110_profile.dxf,53853,24a19c5b6223913a7a3821eef91b3c3a740bb1ae27de7d2bd567ed52ee774f54,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample1_bowls/sample1_vessel_z110_scannerLPS.stl,7866084,36b280a290bb36f2dc8d93a8f96dba58aab7ab78c109a550bb0d941ee0b1fa3a,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample1_pot_projection/sample1_vessel_z170.step,50205,beba5bb1f84959a5767ac7921eac8a932d313cee2dc8da99b990957085c4f27b,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample1_pot_projection/sample1_vessel_z170_local.stl,7866084,5070067e684c09420a9325741e3f7d00bf75a85584382f3c52da88efefd76452,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample1_pot_projection/sample1_vessel_z170_profile.dxf,48012,9990f1e35e15250b877700158c6cbdeff311a6a3fbb3b99de2e35a0c333d5616,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample1_pot_projection/sample1_vessel_z170_scannerLPS.stl,7866084,b969ffbc57f02eda7446ba4beacb9de1b87ffcc4199293b6611e73abb2883dff,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample1_pot_projection/sample1_vessel_z210.step,72252,75b91bbd4bb5b54e3605290f0105030ef6430bda7b78150e2cb533ff4e0db636,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample1_pot_projection/sample1_vessel_z210_local.stl,7866084,ab5a14dde894f58714fc51345dcf8479be4f8ca7a56688d04483dfc5767af310,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample1_pot_projection/sample1_vessel_z210_profile.dxf,53961,a1f0134eccbf69c60fc8b6106075378b184fef2313bae3a0ee55e75854d0de76,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample1_pot_projection/sample1_vessel_z210_scannerLPS.stl,7866084,116155837e76eba85427fa29aab82647de4dcb69906e2520bf3ad92eb7e80e54,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample1_pot_projection/sample1_vessel_z250.step,72315,fd12824d4f031c0f7432e0068f67959f517898e9ecb380f65e1f4f954150b421,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample1_pot_projection/sample1_vessel_z250_local.stl,7866084,71ed9d3870315fd2e697da8e55fa2395afe0142c2d9ce91d3fcd3274563073c4,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample1_pot_projection/sample1_vessel_z250_profile.dxf,53949,7a2a3b51f9cc5719682bdc39e5211bdf957bbf7088191a4c11a34abc8333f18a,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample1_pot_projection/sample1_vessel_z250_scannerLPS.stl,7866084,2d5aef482f570c80690b73f2c52e5fe4ac7f1442d559d45d18c2cd07924a8345,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample2/sample2_vessel_measured.step,28563,771ec6c781fee045c9284e062f20c1ed893f5eda157b338300091f13c0b1154f,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample2/sample2_vessel_measured_local.stl,2592084,bd5cd560a6fb0aba5de0ae5fc5802e072315c095e7581a05813dc174eda39326,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample2/sample2_vessel_measured_scannerLPS.stl,2592084,f6b80feb3abbb4ba8038eaaf51175588466596cf0ce422ed3e350d146e0e64a9,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample2/sample2_vessel_profile.dxf,42541,eaeee357a3d2f175d12bd1f589fc2cf2956e859e2aaf3011800d55fc348b901e,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample2/sample2_vessel_with_illustrative_base.step,25053,7eea7c3ede3d8443948d17ff4ebfb46113fe94cf6329ea6be136294ca2970c55,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample2/sample2_vessel_with_illustrative_base_local.stl,3686484,b5bacc7cb79fc83fda97bc12fca498470a0e945e637c293ee12f78df488c9659,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample2/sample2_vessel_with_illustrative_base_scannerLPS.stl,3686484,b39c99fe432c662640e27dd9d3d2afe8d3c638813278c9b97726c11207fefa07,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample3_base/sample3_base.step,18338,2358a4a4a5d6c8d51a4e0110560bce198d7d282f6aceb4f418a736dbcfc93237,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample3_base/sample3_base_local.stl,4579284,2600edc4a576c5ffe3cef2c7974d85d71e6eca8739333511c4be26bda7ac7996,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample3_base/sample3_base_profile.dxf,39369,aa329cf5795b44c0cc643e329b011f3f474c5ae234136327f5549b9544b74e03,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample3_base/sample3_base_scannerLPS.stl,4579284,a17f9b8de95dc32d7a094e15e3f7089e017aa165774b797ce7428a4d8ac7a4f8,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample3_vessel_spherical_wall/sample3_scanned_sherd_cleaned_scannerLPS.stl,3403234,0d1663215cbc972a1bae968acc16b1bea2f010444a2c0dac11ce12baa1244adc,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample3_vessel_spherical_wall/sample3_vessel_z060.step,51255,17c2245f569afb23f2c8a1d05b63b12f507cb1cb95d89be4bd28dcad26cc1b09,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample3_vessel_spherical_wall/sample3_vessel_z060_local.stl,7776084,b8be0c2e3716333943f2c4ecafed4ffcbad6818b892ef1091baf6b148211c7c0,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample3_vessel_spherical_wall/sample3_vessel_z060_profile.dxf,47973,895f885b1110490025a63f058904c2746abbd894c0fab4977ef1ea91adccf138,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample3_vessel_spherical_wall/sample3_vessel_z060_scannerLPS.stl,7776084,9b0fb8dc51ec90507bbe09f09b98c39634db33541cc8d37b2c7190ed3d7a7973,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample3_vessel_spherical_wall/sample3_vessel_z080.step,50074,b25ccf0eca1d2dded38d237d0df196de5bd39f85e2c3113a07c8f0ee9648224d,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample3_vessel_spherical_wall/sample3_vessel_z080_local.stl,7776084,5d48a4fd16035276a2c56fa1ede9b80b2d7d73649805766fdd510437c653e97d,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample3_vessel_spherical_wall/sample3_vessel_z080_profile.dxf,47936,d2c40419a47b6bf9c6e45b19df3f8e0146c0b1245434a51f3d150407b7d2c282,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample3_vessel_spherical_wall/sample3_vessel_z080_scannerLPS.stl,7776084,83abadb7112c34aedbdcb1867a8094d2d5bb096de1cef07400be33528fec22df,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample3_vessel_spherical_wall/sample3_vessel_z100.step,50086,fb9bb7d900f9594687f1b9aa779efa56f211f6ee44d628e4ffb403724bb663a7,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample3_vessel_spherical_wall/sample3_vessel_z100_local.stl,7776084,9cbcefe442ed5d7693b62bc01678f358ff4fbf5df2ebea1a96717468311030a6,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample3_vessel_spherical_wall/sample3_vessel_z100_profile.dxf,47977,98fb890c1834639a593c32c4e70932572a7fbe5410b5ee9ec7af56d0caff4e73,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample3_vessel_spherical_wall/sample3_vessel_z100_scannerLPS.stl,7776084,28ff8bd8f91a3265d0420db5a693fb408b0f8d5f2030b1cb4f23bf8cd865974d,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample4_wall_band/sample4_wall_band.step,19802,33485fc7eea6c8c6cb3d5ee771f2f06d8468f0c7537feb0ded1a6f00daeee4cb,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample4_wall_band/sample4_wall_band_local.stl,2592084,5c637599acad6e2152aada21db2597ac7065c6f57fd77969197d874306481b24,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample4_wall_band/sample4_wall_band_profile.dxf,39298,29facaaef9d0979bfa6e8676fd167ab364cea04a3e54a0ed58e852e93baf5e34,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+05_3d_models/sample4_wall_band/sample4_wall_band_scannerLPS.stl,2592084,d15f772efe4efd21ea0279525d250fc19756707597fa994cde8b08892f54c62c,"3D model or CAD file: _scannerLPS.stl overlays the CT, _local.stl rests on z = 0, .step exact solid, .dxf half cross-section"
+06_methods_documents/README.txt,655,1b4a43f40499047ba01f1a1a242a43b9eb47444ef5fa46ef35511e9fb0a775c3,methods note (Word) and hand-out text for the Sample 2 pipeline
+06_methods_documents/README_sample2_vessel_files_original.txt,9601,fccb261e0be21e73f06a2b5481f758a2bab0c3f3f4be29c08dd3bd2ef3780964,methods note (Word) and hand-out text for the Sample 2 pipeline
+06_methods_documents/methods_math_sample2_pipeline.docx,21927,7ddfeb8e02a9ed0f34ef5350d84260f25693ee2cdbed27ae032d544c3d9f6788,methods note (Word) and hand-out text for the Sample 2 pipeline
+07_manuscript/TABLE2_AND_ABSTRACT_FIXES.md,2051,099fa0a92ac7ee6b39347a86ebbbeb44662df620ee538622f6dd10f422a87770,corrections needed in the first draft's Table 2 and abstract
+07_manuscript/TO_VERIFY.md,1803,d30122cc499be96287699bb76855478e5cc10770f5bbd64b78935ec4f5f45430,items the preparer could not verify
+07_manuscript/figures/fig_corr.png,311574,e6af46d3e776387c3c2da81969b062932e680e1fc27114f3dd4c0d141e151ed6,figure as included in the manuscript (copy of a file in 04_figures)
+07_manuscript/figures/fig_cross_profiles.png,99223,4c4bf680b7daeeb3fde63478baec39d928277b71a008c4f90e4928b7bd6ad660,figure as included in the manuscript (copy of a file in 04_figures)
+07_manuscript/figures/fig_ct_overview.png,472862,25d2b96985828659edbaf4d787060a6ccac425db206eecb202a2a473b77add88,figure as included in the manuscript (copy of a file in 04_figures)
+07_manuscript/figures/fig_hu_hist.png,99766,b76d3fa5b0fce57d2da901a7d2088d2ebcdc5174e595507f2a15ad406b8b2fdc,figure as included in the manuscript (copy of a file in 04_figures)
+07_manuscript/figures/fig_inaa.png,522217,93b10b1155dc237b30601c02d39fbb19883b360db1a523c7dd54e3287e1c627e,figure as included in the manuscript (copy of a file in 04_figures)
+07_manuscript/figures/fig_s1_bowls.png,1032659,d04b43df08ee8c4e69218de10b7bd56fdb2c95c6ee8412d4dceffc039195a86f,figure as included in the manuscript (copy of a file in 04_figures)
+07_manuscript/figures/fig_s1_isolation.png,743142,e71a2efef0fa5d7476405f90640ba8b925e0b40869f038ea5a092fc896372377,figure as included in the manuscript (copy of a file in 04_figures)
+07_manuscript/figures/fig_s1_onbase.png,383039,ad4e84cf208af15ea4b422de6e5bc7520d8b8406af0f559ce22bddbd8fef8059,figure as included in the manuscript (copy of a file in 04_figures)
+07_manuscript/figures/fig_s1_parts.png,480266,7d763061e3c1fd8f0b187c97c632e70c8fa9a80a868df774f2e860e261f59887,figure as included in the manuscript (copy of a file in 04_figures)
+07_manuscript/figures/fig_s1_pot.png,1289142,fe54eb26d2fcfa48ea772c4fc9688b48b3739e756d9f6a7ec90c4dfba6bbb262,figure as included in the manuscript (copy of a file in 04_figures)
+07_manuscript/figures/fig_s1_profile.png,497023,ab013cf63651079963b5a1bad20f195976a770139d6f61f76af38d09849e2772,figure as included in the manuscript (copy of a file in 04_figures)
+07_manuscript/figures/fig_s2_hu.png,84617,529d689081ab6dda327e88d71ca492f7cc728113edf63f3f9aa3c04fc886b2e4,figure as included in the manuscript (copy of a file in 04_figures)
+07_manuscript/figures/fig_s2_lip.png,224687,8f65774569d4a67790ba919b63fcd202c8f8bd3291fd778c79d9c8a72390747d,figure as included in the manuscript (copy of a file in 04_figures)
+07_manuscript/figures/fig_s2_profile.png,161401,6cb3f7c6dd20ec2a4799bf0237d73ffcedc24eccff71664c5afc3aba907e549d,figure as included in the manuscript (copy of a file in 04_figures)
+07_manuscript/figures/fig_s2_real.png,539378,e7db36deef769a7dbc382db2ebc8b08bdda7ac8939e7c3b2f5133f3cfc6ebf0a,figure as included in the manuscript (copy of a file in 04_figures)
+07_manuscript/figures/fig_s2_sections.png,404260,f77a7429ea8258b6d0b7351e18ee0a5e6b1854b9b284de433ef3a865d65035d4,figure as included in the manuscript (copy of a file in 04_figures)
+07_manuscript/figures/fig_s2_sweep.png,590904,cb3e992e1d7679c776f726f7dca2439434b14b689b06e2816b41b731f4f4feae,figure as included in the manuscript (copy of a file in 04_figures)
+07_manuscript/figures/fig_s3_heightmaps.png,44572,cd66ade3cc0a5ea3f56cbc2e5077ca37f157b524172c929d7dc15ed50468ecb2,figure as included in the manuscript (copy of a file in 04_figures)
+07_manuscript/figures/fig_s3_orient.png,51514,80e5ef8ba2eade72a6b07762df6013bb848c280ae6f89228fee3b739e69a5596,figure as included in the manuscript (copy of a file in 04_figures)
+07_manuscript/figures/fig_s3_scanrecon.png,909586,e5a8f5b5318a678c0ae169e61635d5e68b90b15b559d6363215b22a74e891a1c,figure as included in the manuscript (copy of a file in 04_figures)
+07_manuscript/figures/fig_s3_sections.png,227721,b8814718738bca5c5ecfbead64394db230e0fe3d9dc0e633d0afb918d965b84a,figure as included in the manuscript (copy of a file in 04_figures)
+07_manuscript/figures/fig_s3_sweep.png,455389,7cc90b5082f884575ca7a8ef8cc3f28f100d3cec9a202ea46641bd13c4761de6,figure as included in the manuscript (copy of a file in 04_figures)
+07_manuscript/figures/fig_s3_vessel.png,1003771,fbc166c8e6f377d49daeb40369763ecf3706d0fc6c70c4b5a587ae10162377db,figure as included in the manuscript (copy of a file in 04_figures)
+07_manuscript/figures/fig_s4_real.png,520352,01ffdefa05ff1fb8c2485bed3d6f5c6d3210d4bb77a8f0ba100fc4429c02df61,figure as included in the manuscript (copy of a file in 04_figures)
+07_manuscript/figures/fig_s4_sections.png,199641,617a491e8cc2f11fa913d9c434d48d2dcebda4c279c82655f1f992ba360ebdd4,figure as included in the manuscript (copy of a file in 04_figures)
+07_manuscript/figures/fig_s4_sweep.png,460973,da331cdb33dea225478e632b9b748e8db126eaf1a7b5977c436c0a22b1a468fa,figure as included in the manuscript (copy of a file in 04_figures)
+07_manuscript/figures/fig_s5_stone.png,170136,c00e28823668d236802e4db645d347229e752ade73c1c8a6004c227c4fa96e7a,figure as included in the manuscript (copy of a file in 04_figures)
+07_manuscript/figures/fig_views_s1.png,937482,1408735873ee4fb1b00c847a8fae24f8d37e66797566ad9930f9ae3896ddb27b,figure as included in the manuscript (copy of a file in 04_figures)
+07_manuscript/figures/fig_views_s2.png,733124,ae74e470bcbce2cddfe4804e747b40c6e012d411988af8676bfa90cdfdcf6bd5,figure as included in the manuscript (copy of a file in 04_figures)
+07_manuscript/figures/fig_views_s3.png,783683,228c14d9ad8af6e18edda064ebb55a1b39ef54198a942d364e93d9af79fbafd5,figure as included in the manuscript (copy of a file in 04_figures)
+07_manuscript/figures/fig_views_s4.png,721521,b960508bf33fc33812db9aa68e9d2ba72e67522a431c8f176f20b6cef4d54980,figure as included in the manuscript (copy of a file in 04_figures)
+07_manuscript/main.bbl,3361,edb2afc291af7adbd2939499afd4acbafc9dcb69f0de7fae2374030944c122f7,
+07_manuscript/main.pdf,15836013,75b9ab78dcf6fc3c3344149ca3d5f5a940bfe417bfd5250aaf7ad4f4b8044dc6,compiled manuscript
+07_manuscript/main.tex,2348,543ff7759cc63298516c3b8a1c345a05ec665afc28fefc7825b5d2f4c9431d6c,manuscript master file
+07_manuscript/references.bib,3314,ba55b92f64a10ed54857a4e0be82423b8e269e0b92b64da9f9872caccbe63b4d,bibliography (entries to be checked)
+07_manuscript/sections/abstract.tex,3246,7a307abc862a274ead0e41f50e0f1e36259262a3dfb4d01fb2efe076b53dd596,manuscript section (LaTeX)
+07_manuscript/sections/sec1_intro.tex,1161,7e7506074c66bb3653b2703f879c1b8445f05bfdb2f5f5025120b476a483d2bb,manuscript section (LaTeX)
+07_manuscript/sections/sec2_assemblage.tex,540,20e43b9d81023a80402e46f1a6af88027c914f0d07424ec5312fa7eaa8ca9257,manuscript section (LaTeX)
+07_manuscript/sections/sec3_methods.tex,29286,ae22047c5e9ca0871cd691882ca32d21a79a93c823b58fe6ab6c9930bbf57970,manuscript section (LaTeX)
+07_manuscript/sections/sec4_results.tex,30063,19181675f59d4d18a001a8dfbedcb5547f3d7ac436928ebdc2f1686f13840489,manuscript section (LaTeX)
+07_manuscript/sections/sec5_discussion.tex,1640,b5f967805adb18ac2dd8f639496d78f095c9fdc413d38740a1c49ecbe23936f3,manuscript section (LaTeX)
+07_manuscript/sections/sec6_conclusion.tex,625,5cab56e05d94e29f267c5cc38b379caa919bc15ffaa0a1ccbb8ef66c379c3e70,manuscript section (LaTeX)
